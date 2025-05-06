@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Олег Кутний | web и 3D</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+    <input class="checkbox" type="checkbox" name="hamburger" id="hamburger" />
+    <label for="hamburger" class="menu-hamburger">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+    </label>
+
+    <div class="header-top">
+
+        <nav class="navigation">
+            <ul class="menu block-center">
+                <li class="menu-element block-center">
+                    <a class="link menu-element__link" href="#about-me">Информация</a>
+                </li>
+                <li class="menu-element block-center">
+                    <a class="link menu-element__link" href="#achievements">Примеры работ</a>
+                </li>
+                <li class="menu-element block-center">
+                    <a class="link menu-element__link" href="#contact-me">Связаться</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <header class="header observer-section" id="home">
+        <img class="header__background" src="images/background.png" alt="background" />
+        <div class="header__background-wrapper"></div>
+
+        <div class="header-center">
+            <div class="header-center__wrapper">
+                <h1 class="name">Олег&nbsp;Кутний</h1>
+                <p class="description">Веб-разработчик, <span>3D художник, </span>концепт-художник</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="about-me observer-section" id="about-me">
+        <div class="row">
+            <div class="center">
+                <h2 class="about-me__title">Немного обо мне</h2>
+                <br>
+                <p class="about-me__description">Я разработчик уровня "дай задание на месяц сделаю за 5 минут под конец дедлайна".</p>
+                <p class="about-me__description">Сейчас работаю в успешной компании, в которой наша команда разрабатывает проект виртуальной симуляции самогонного аппарата.</p>
+                <p class="about-me__description">Основная направленность моей деятельности - WEB и 3D.</p>
+
+                <ul class="about-me__extra">
+                    <li class="about-me__extra-element">
+                        <span class="about-me__extra-icon birthday">
+                            <img src = "images\cake-slice.svg">
+                        </span>
+                        <div class="about-me__extra-content">
+                            <span class="about-me__extra-title bold">Дата рождения:</span>
+                            <span class="about-me__extra-description">09/02/2<span class = minesymb></span></span>
+                        </div>
+                    </li>
+                    <li class="about-me__extra-element">
+                        <span class="about-me__extra-icon address">
+                            <img src = "images\map-pin.svg">
+                        </span>
+                        <div class="about-me__extra-content">
+                            <span class="about-me__extra-title bold">Адрес:</span>
+                            <span class="about-me__extra-description">192.168.1.249</span>
+                        </div>
+                    </li>
+                    <li class="about-me__extra-element">
+                        <span class="about-me__extra-icon education">
+                            <img src = "images\book-open.svg">
+                        </span>
+                        <div class="about-me__extra-content">
+                            <span class="about-me__extra-title bold">Образование:</span>
+                            <span class="about-me__extra-description">ТИУ - математика и компьютерные науки</span>
+                        </div>
+                    </li>
+                    <li class="about-me__extra-element">
+                        <span class="about-me__extra-icon skill"> <img src = "images/cog.svg"> </span>
+                        <div class="about-me__extra-content">
+                            <span class="about-me__extra-title bold">Мои компетенции:</span>
+                            <span class="about-me__extra-description block">Web разработка <img class = "picture" src = "images/html5.svg"> <img class = "picture" src = "images/css3.svg"> <img class = "picture" src = "images/js.svg"> </span>
+                            <span class="about-me__extra-description block">3D моделирование в <img class = "picture" src = "images/blender.svg"> <img class = "picture" src = "images/maya.svg"> <img class = "picture" src = "images/zbrush.svg"> </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="achievements section-grey block-center observer-section" id="achievements">
+        <h2 class="second-title">Работы</h2>
+
+        <div class="achievements-list slider">
+
+            <div class="achievements-list__view slider__wrapper">
+                <div class="achievements-list__element slider__link  block-center">
+                  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.89/build/spline-viewer.js"></script>
+                  <spline-viewer loading-anim-type="none" url="https://prod.spline.design/92NO55yKRp8Xag-F/scene.splinecode"></spline-viewer>
+                </div>
+                <div class="achievements-list__element slider__link  block-center">
+                  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.89/build/spline-viewer.js"></script>
+                  <spline-viewer loading-anim-type="none" url="https://prod.spline.design/NhbXSrJkRfF2r6wI/scene.splinecode"></spline-viewer>
+                </div>
+                <div class="achievements-list__element slider__link  block-center"></div>
+                  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.89/build/spline-viewer.js"></script>
+                  <spline-viewer url="https://prod.spline.design/fBLbMCH2Ac0tXoj7/scene.splinecode"></spline-viewer>
+                </div>
+            </div>
+
+            <div class="achievements-list__element slider__link  block-center ">
+              <iframe style="border: 0px solid rgba(0, 0, 0, 0.1);" width="362" height="790" 
+              src="https://embed.figma.com/proto/cB1BgMngVOk8uAxJFSIQZr/Mental?page-id=0%3A1&node-id=10-1188&p=f&viewport=307%2C375%2C0.11&scaling=scale-down&content-scaling=fixed&starting-point-node-id=10%3A1188&hotspot-hints=0&embed-host=share">
+            </iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-me observer-section" id="contact-me">
+        <div class="contact-me__wrapper">
+            <h2 class="second-title">Обратная связь</h2>
+
+            <form action="" class="contact-me__form">
+                <div class="input-wrapper left">
+                    <label class="label bold">Имя</label>
+                    <input class="input" type="text"  placeholder="Введите ваше имя" required />
+                </div>
+                <div class="input-wrapper right">
+                    <label class="label bold">E-mail</label>
+                    <input class="input" type="email"  placeholder="Введите ваш e-mail адрес" required />
+                </div>
+                <div class="cls"></div>
+
+                <div class="textarea-wrapper">
+                    <label class="label bold">Сообщение</label>
+                    <textarea
+                        class="textarea"
+                        name="message"
+                        placeholder="Подробно опишите, с какой целью хотите связаться со мной"
+                        id="message"
+                        cols="30"
+                        rows="10"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="submit">Отправить</button>
+            </form>
+        </div>
+
+
+    </section>
+
+    <footer class="footer section-grey">
+      <p class="footer-about">
+        &nbsp;мои соцсети&nbsp;
+      </p>
+        <ul class="socials">
+            <li class="social-element">
+                <a href="https://vk.com/der_chtonisch" target="_blank" class="link social-element__link block-center">
+                    <img src = "images/vk-outline.svg">
+                </a>
+            </li>
+            <li class="social-element">
+                <a href="https://t.me/OliverSeele" target="_blank" class="link social-element__link block-center">
+                    <img src = "images/telegram-outline.svg">
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
